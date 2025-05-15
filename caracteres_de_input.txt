@@ -6,4 +6,3 @@
 '>>>' - Enter
 (1) - True
 (-1) - False
- *, =+ * >>>  **... - otimizações
