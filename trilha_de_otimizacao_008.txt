@@ -43,7 +43,6 @@ step:	|execution_track:		     |code				        			|
 |       |2.4_ >>> line 38 - 41               |								        | 
 10      |5.0_5.1.0_                          |								        |
 |       |5.1.3_ >>> line 61                  |								        |
-17	|5.1.4_ >>> line 112                 |                                   		        	|
 |---------------------------------------------------------------------------------------------------------------|
 |       |>>> step: 8 28 - 30                 |# def menu_agencia(self, lista_self):			        |
 |	|                                    |#     __import__(self.modulo_agencia_numero).Agencia(self. \n     |
@@ -58,12 +57,18 @@ step:	|execution_track:		     |code				        			|
 |	|                                    |>>>        print('Digite uma matrícula e senha.\n')	        |
 |	|                                    |>>> from modulo_agencia.modulo_menu_agencia import Menu	        |
 |	|                                    |>>> Menu.cadastrar_usuario(self, lista_self)		        |
-|	|                                    |                                   		        	|
-|	|                                    |                                   		        	|
 |---------------------------------------------------------------------------------------------------------------|
-|	|                                    |                                   		        	|
-|	|                                    |                                   		        	|
-|	|                                    |                                   		        	|
+|5.1.3_                                                                                                         |
+|---------------------------------------------------------------------------------------------------------------|
+5	|5.0_5.1.0_3                         |                                   		        	|
+|	|5.1.3_ >>> line 84 - 86             |                                   		        	|
+|---------------------------------------------------------------------------------------------------------------|
+|	|>>> step: 5 83 - 87                 |>>> self_contas = lista_self.get('self_contas', )        	        |
+|	|                                    |# from modulo_contas.modulo_contas import Contas        	        |
+|	|                                    |# Contas(self.__dict__).menu_opcao(self.__dict__, lista_self)	|
+|	|                                    |>>> from modulo_contas.modulo_menu_contas import Menu    	        |
+|	|                                    |>>> Menu.menu_opcao(self_contas, self.__dict__, lista_self)    	|
+|---------------------------------------------------------------------------------------------------------------|
 |	|                                    |                                      		        	|
 |	|                                    |                                      		        	|
 |	|                                    |                                      		        	|
@@ -79,27 +84,6 @@ step:	|execution_track:		     |code				        			|
 |*******|... >>> line 110 ...                |							        	|
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
-26	|1.0_1.1_1.2_1.3_		     |				        				|
-27	|2.0_2.1_2.2_2.3_                    |								        |
-36      |5.1.4_	>>> step: 23 102 - 125       |# valor_matricula = input(f'\nDigite a_ {self.matricula}:\n')     |
-|	|                                    |# if valor_matricula == '1':                              	|
-|	|                                    |#        Menu.menu_opcao(self, lista_self)			|
-|	|                                    |# self.valor_matricula = valor_matricula			        |
-|	|                                    |#							        	|
-|	|                                    |# valor_senha = input(f'\nDigite a_ {self.senha}:\n')		|
-|	|                                    |# if valor_senha == '1':			                        |
-|	|                                    |#        Menu.menu_opcao(self, lista_self)			|
-|	|                                    |# self.valor_senha = valor_senha			                |
-|	|                                    |>>> valor_matricula = input(f'\nDigite a_ {self.matricula \n      |
-|	|                                    |>>> }:\n')			                                |
-|	|                                    |>>> self.valor_matricula = valor_matricula     		        |
-|	|                                    |>>>						        	|
-|	|                                    |>>> valor_senha = input(f'\nDigite a_ {self.senha}:\n')	        |
-|	|                                    |>>> self.valor_senha = valor_senha			        |
-|	|                                    |>>>							        |
-|	|                                    |>>> if self.valor_matricula == '1' or self.valor_senha == '1':	|
-|	|                                    |>>> from modulo_agencia.modulo_menu_agencia import Menu	        |
-|	|                                    |>>> Menu.menu_opcao(self, lista_self)		                |
 |	|... >>> step: 23 127 - 131          |
 37	|5.1.3_				     |                                                                  |
 38******|5.1.4_ >>> line 102 - 125    	     |                       					        |

@@ -20,6 +20,17 @@ step:	|execution_track:		     |code				        			|
 |	|                                    |>>> from modulo_contas.modulo_menu_contas import Menu     	|
 |	|                                    |>>> Menu.menu_opcao(self_contas, agencia, lista_self)         	|
 |---------------------------------------------------------------------------------------------------------------|
+|5.1.3_                                                                                                         |
+|---------------------------------------------------------------------------------------------------------------|
+6	|3.0_3.2.0_3.2.1_1                   |                                   		        	|
+|	|3.2.2_ >>> line 59 - 60             |                                      		        	|
+|---------------------------------------------------------------------------------------------------------------|
+|	|>>> step: 6 59 - 63                 |>>> self_agencia = lista_self.get('self_agencia', )   	        |
+|	|                                    |# from modulo_agencia_matriz import Matriz        	        |
+|	|                                    |# Matriz(self.valor_agencia).menu_agencia(lista_self)     	|
+|	|                                    |>>> from modulo_agencia.modulo_menu_agencia import Menu  	        |
+|	|                                    |>>> Menu.menu_opcao(self_agencia, lista_self)                 	|
+|---------------------------------------------------------------------------------------------------------------|
 
 
 
