@@ -10,11 +10,11 @@ step:	|execution_track:		     |code				        			|
 5	|6.0_6.1.0_6.1.1_                    |								        |
 |       |6.1.2_ >>> line 33 - 34             |								        |
 |---------------------------------------------------------------------------------------------------------------|
-|	|>>> step: 1 32 - 36                 |>>> self_contas = lista_self.get('self_contas', )               	|
-|	|                                    |# from modulo_contas.modulo_contas import Contas          	|
-|	|                                    |# Contas(agencia).menu_opcao(agencia, lista_self)        	        |
-|	|                                    |>>> from modulo_contas.modulo_menu_contas import Menu     	|
-|	|                                    |>>> Menu.menu_opcao(self_contas, agencia, lista_self)         	|
+|	|>>> step: 1                       32|>>> self_contas = lista_self.get('self_contas', )               	|
+|	|                                  33|# from modulo_contas.modulo_contas import Contas          	|
+|	|                                  34|# Contas(agencia).menu_opcao(agencia, lista_self)        	        |
+|	|                                  35|>>> from modulo_contas.modulo_menu_contas import Menu     	|
+|	|                                  36|>>> Menu.menu_opcao(self_contas, agencia, lista_self)         	|
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
 |5.1.3_                                                                                                         |
@@ -22,19 +22,19 @@ step:	|execution_track:		     |code				        			|
 6	|3.0_3.2.0_3.2.1_                    |                                   		        	|
 |	|3.2.2_ >>> line 63 - 94             |                                      		        	|
 |---------------------------------------------------------------------------------------------------------------|
-|	|>>> step: 6 62 - 63                 |>>> self_agencia = lista_self.get('self_agencia', )   	        |
-|	|                                    |# from modulo_agencia_matriz import Matriz        	        |
-|	|                                    |# Matriz(self.valor_agencia).menu_agencia(lista_self)     	|
-|	|                                    |>>> from modulo_agencia.modulo_menu_agencia import Menu  	        |
-|	|                                    |>>> Menu.menu_opcao(self_agencia, lista_self)                 	|
+|	|>>> step: 6                       62|>>> self_agencia = lista_self.get('self_agencia', )   	        |
+|	|                                  63|# from modulo_agencia_matriz import Matriz        	        |
+|	|                                  64|# Matriz(self.valor_agencia).menu_agencia(lista_self)     	|
+|	|                                  65|>>> from modulo_agencia.modulo_menu_agencia import Menu  	        |
+|	|                                  66|>>> Menu.menu_opcao(self_agencia, lista_self)                 	|
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
 |3.2.2_                                                                                                         |
 |---------------------------------------------------------------------------------------------------------------|
 3	|3.2.3_ >>> line 229                 |                                      		        	|
 |---------------------------------------------------------------------------------------------------------------|
-|	|>>> step: 3 229 - 230               |>>> from modulo_contas.modulo_menu_contas import Menu   	        |
-|	|                                    |# Menu.teste_valor_dado(self, agencia, lista_self)       	        |
+|	|>>> step: 3                      229|>>> from modulo_contas.modulo_menu_contas import Menu   	        |
+|	|                                 230|# Menu.teste_valor_dado(self, agencia, lista_self)       	        |
 |---------------------------------------------------------------------------------------------------------------|
 14	|3.2.3_ >>> line 256                 |                                      		        	|
 17	|3.0_3.2.0_3.2.1_3.2.2_              |                                   		        	|
@@ -42,23 +42,23 @@ step:	|execution_track:		     |code				        			|
 19	|4.0_4.1.0_4.1.1_4.1.2_              |                                   		        	|
 |	|4.1.4_ >>> line 33 - 37             |                                   		        	|
 |---------------------------------------------------------------------------------------------------------------|
-|	|>>> step: 14 3.1.2_ 19              |>>>  self.dado_valor = None                                       |
-|	|>>> step: 14 254                    |# if self.valor_dado_variavel == '0' or self.dado_valor == '0':   |
-|	|                                    |>>> if self.valor_dado_variavel == '0' or self.dado_valor == '0'\n|
-|	|                                    |>>>  or self.valor_conta_variavel == '0':                         |
-|	|>>> step: 17 55 - 60                |# agencia['valor_agencia'] = self.valor_agencia                   |
-|	|                                    |>>> self_pessoa = lista_self.get('self_pessoa',)                  |
-|	|                                    |# from modulo_pessoa.modulo_pessoa import Pessoa            	|
-|	|                                    |# Pessoa(self.__dict__).menu_opcao(agencia, self.__dict__, lista\n|
-|	|                                    |# _self)	                                                        |
-|	|                                    |>>> from modulo_pessoa.modulo_menu_pessoa import Menu            	|
-|	|                                    |>>> Menu.menu_opcao(self_pessoa, agencia, self, lista_self)   	|
-|	|>>> step: 19 32 - 37                |# agencia['valor_agencia'] = self.valor_agencia                   |
-|	|                                    |>>> self_contas = lista_self.get('self_contas', )               	|
-|	|                                    |# from modulo_contas.modulo_contas import Contas          	|
-|	|                                    |# Contas(agencia).menu_opcao(agencia, lista_self)        	        |
-|	|                                    |>>> from modulo_contas.modulo_menu_contas import Menu     	|
-|	|                                    |>>> Menu.menu_opcao(self_contas, agencia, lista_self)         	|
+|	|>>> step: 14 3.1.2_               19|>>>  self.dado_valor = None                                       |
+|	|>>> step: 14                     254|# if self.valor_dado_variavel == '0' or self.dado_valor == '0':   |
+|	|                                 255|>>> if self.valor_dado_variavel == '0' or self.dado_valor == '0'\n|
+|	|                                 256|>>>  or self.valor_conta_variavel == '0':                         |
+|	|>>> step: 17                      55|# agencia['valor_agencia'] = self.valor_agencia                   |
+|	|                                  56|>>> self_pessoa = lista_self.get('self_pessoa',)                  |
+|	|                                  57|# from modulo_pessoa.modulo_pessoa import Pessoa            	|
+|	|                                  58|# Pessoa(self.__dict__).menu_opcao(agencia, self.__dict__, lista\n|
+|	|                                  59|# _self)	                                                        |
+|	|                                  60|>>> from modulo_pessoa.modulo_menu_pessoa import Menu            	|
+|	|                                  61|>>> Menu.menu_opcao(self_pessoa, agencia, self, lista_self)   	|
+|	|>>> step: 19                      32|# agencia['valor_agencia'] = self.valor_agencia                   |
+|	|                                  33|>>> self_contas = lista_self.get('self_contas', )               	|
+|	|                                  34|# from modulo_contas.modulo_contas import Contas          	|
+|	|                                  35|# Contas(agencia).menu_opcao(agencia, lista_self)        	        |
+|	|                                  36|>>> from modulo_contas.modulo_menu_contas import Menu     	|
+|	|                                  37|>>> Menu.menu_opcao(self_contas, agencia, lista_self)         	|
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
 |3.2.3_                                                                                                         |
@@ -66,128 +66,37 @@ step:	|execution_track:		     |code				        			|
 10	|3.0_3.3.0_3.3.1                     |                                   		        	|
 |	|_4.3.2_ >>> line 54                 |                                   		        	|
 |---------------------------------------------------------------------------------------------------------------|
-|	|>>> step: 10 54                     |# Menu.menu_opcao(self_contas, self.__dict__, lista_self)        	|
-|	|                                    |>>> Menu.menu_opcao(self_contas, agencia, lista_self)         	|
+|	|>>> step: 10                      54|# Menu.menu_opcao(self_contas, self.__dict__, lista_self)        	|
+|	|                                  55|>>> Menu.menu_opcao(self_contas, agencia, lista_self)         	|
 |---------------------------------------------------------------------------------------------------------------|
+34	|3.2.3_ >>> line 112                 |                                   		        	|
 |---------------------------------------------------------------------------------------------------------------|
-
-
-
-
-
-
-
-
-1	|1.0_1.1_1.2_1.3_		     |  								|
-2       |2.0_2.1_2.2_2.3_		     |  								|
-3	|3.0_3.1.0_3.1.1_3.1.2_3.1.3_        |  								|
-|*******|3.1.3_ >>> line 62 - 63	     |  								|
-4	|4.0_4.1.0_4.1.1_4.1.2_		     |  								|
-|*******|4.1.3_ >>> line 36 - 37	     |  								|
-5	|5.0_5.1.0_5.1.1_5.1.2_		     |  								|
-6	|5.1.3_			             |   								|
-7	|5.1.6_			             |  								|
+|	|>>> step: 34 3.2.2                18|>>> self.dado_variavel = self.dado_rg                          	|
+|	|>>> step: 34 3.2.2                88|# if digito_conta == '2':                                   	|
+|	|                                  89|#     self.digito_conta = '2'                                   	|
+|	|                                  90|#     self.conta_variavel = self.conta_poupanca                   |
+|	|                                  91|>>> if digito_conta == '1':                                   	|
+|	|                                  92|>>>     self.digito_conta = '1'                                   |
+|	|                                  93|>>>     self.conta_variavel = self.conta_corrente                 |
+|	|                                  94|>>> else:                                   	                |
+|	|                                  95|>>>     self.digito_conta = '2'                                  	|
+|	|                                  96|>>>     self.conta_variavel = self.conta_poupanca              	|
+|	|>>> step: 34 4.3.2                57|>>> self.opcao_conta = 0                                         	|
+|	|                                  58|>>> self.opcao_pessoa = self.opcao_conta                          |
+|	|                                  59|>>> self.opcao = None                                             |
+|	|                                  60|>>> self.dado_variavel = self.dado_rg                             |
+|	|                                  61|>>> self.valor_dado_variavel = None                             	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
+|	|                                    |                                                           	|
 |---------------------------------------------------------------------------------------------------------------|
-|---------------------------------------------------------------------------------------------------------------|
-8       |1.0_1.1_1.2_1.3_	             |  								|
-9       |2.0_2.1_2.2_2.3_                    |  								|
-10      |3.0_3.1.0_3.1.1_3.1.2_	             |  								|
-|       |3.1.3_ >>> step: 3 line 62 - 64     |# self_contas = self.self_contas				        |
-|       |			             |# lista_self.update({'self_contas': self_contas})		        |
-|       |			             |>>> lista_self.update({'self_contas': self})   		        |
-11      |4.0_4.1.0_4.1.1_4.1.2_              |								        |
-|       |4.1.3_ >>> step: 4 line 36 - 38     |# self_pessoa = self.self_pessoa				        |
-|       |			             |# lista_self.update({'self_pessoa': self_pessoa})		        |     
-|       |			             |>>> lista_self.update({'self_pessoa': self})   		        |     
-12      |5.0_5.1.0_5.1.1_5.1.2_              |								        |
-13	|5.1.3_ 		             |								        |
-14	|5.1.6_ 		             |								        |
-|---------------------------------------------------------------------------------------------------------------|
-|---------------------------------------------------------------------------------------------------------------| 
-15	|1.0_1.1_1.2_1.3_                    |								        | 
-16	|2.0_2.1_2.2_2.3_	             |								        | 
-17	|3.0_3.1.0_3.1.1_3.1.2_3.1.3_        |								        | 
-18	|4.0_4.1.0_4.1.1_4.1.2_4.1.3_        |								        | 
-19	|5.0_5.1.0_5.1.1_5.1.2_              |								        | 
-|	|...                                 |                                                          	| 
-20	|5.0_5.2.0_5.2.1_5.2.2_5.2.3_        |								        | 
-21      |6.0_6.1.0_6.1.1_                    |								        | 
-|*******|6.1.2_ >>> line 28 - 29             |								        | 
-22	|1.0_1.1_1.2_	                     |								        | 
-|*******|1.4_>>> line 28 - 30                |								        | 
-23       |2.0_2.1_2.2_                       |								        | 
-|*******|2.4_ >>> line 38 - 41               |								        | 
-24******|5.1.3_ >>> line 64 - 66             |								        | 
-25******|5.1.4_	>>> line 102 - 110           |								        |
-|*******|... >>> line 110 ...                |								        |
-|---------------------------------------------------------------------------------------------------------------|
-|---------------------------------------------------------------------------------------------------------------|
-26	|1.0_1.1_1.2_1.3_		     |				        				|
-27	|2.0_2.1_2.2_2.3_                    |								        |
-28	|3.0_3.1.0_3.1.1_3.1.2_3.1.3_        |								        |
-29	||4.0_4.1.0_4.1.1_4.1.2_4.1.3_       |								        |
-30	|5.0_5.1.0_5.1.1_5.1.2_              |								        | 
-31	|5.0_5.2.0_5.2.1_5.2.2_              |								        |
-32	|6.0_6.1.0_6.1.1_6.1.2_              |                                        	        	        |
-33	|1.0_1.1_1.2_1.4_                    |  	                                        	        |
-34      |2.0_2.1_2.2_2.4_                    |                                            		        |
-35	|5.1.3_                              |								        |
-36      |5.1.4_		                     |								        |
-37	|5.1.3_				     |                                                                  |
-38      |5.1.4_                     	     |                       					        |
-39	|5.1.3_				     |                                                                  |
-40	|5.1.4_				     |                       			                        |
-41	|5.1.3_				     |                                                                  |
-42	|5.1.4_				     |       							        |
-43	|5.2.3_				     |              							|
-44	|5.1.3_				     |              			                		|
-45	|5.1.6_				     |              			                		|
-|---------------------------------------------------------------------------------------------------------------|
-|---------------------------------------------------------------------------------------------------------------|
-46	|1.0_1.1_1.2_1.3_		     |  								|
-47	|2.0_2.1_2.2_2.3_		     |  								|
-48	|3.0_3.1.0_3.1.1_3.1.2_3.1.3_	     |  								|
-49	|4.0_4.1.0_4.1.1_4.1.2_4.1.3_	     |  								|
-50	|5.0_5.1.0_5.1.1_5.1.2_              |                                       				|
-51	|5.0_5.2.0_5.2.1_5.2.2_              |								        |
-52	|5.1.3_                              |								        |
-53	|5.1.4_                              |								        |
-54	|5.1.3_                              |								        |
-55	|5.1.6_                              |   								|
-56	|1.0_1.1_1.2_1.3_                    |   								|
-57	|2.0_2.1_2.2_2.3_                    |   								|
-58	|3.0_3.1.0_3.1.1_3.1.2_3.1.3_	     |       							        |
-59	|4.0_4.1.0_4.1.1_4.1.2_4.1.3_	     |       							        |
-60	|5.0_5.1.0_5.1.1_5.1.2_ 	     |                                                                  |
-61	|5.0_5.2.0_5.2.1_5.2.2               |                  	                      		        |
-62	|5.1.3_				     |                  	        			        |
-63	|5.1.4_				     |    			      				        |
-64	|5.1.4_				     |    			      				        |
-65	|5.1.3_				     |                         					        |
-66	|5.1.4_				     |    			      				        |
-65	|5.1.3_				     |                         					        |
-66	|5.1.4_				     |    			      				        |
-67	|5.1.3_				     |                         					        |
-68	|5.1.4_				     |    			      				        |
-69	|5.2.3_				     |                         					        |
-70	|5.1.3_				     |                         					        |
-71******|5.1.5_	>>> line 140    	     |    			      				        |
-72	|5.2.3_				     |                         					        |
-73	|5.1.3_				     |                         					        |
-74	|5.1.6_				     |	              	                        		        |
-|---------------------------------------------------------------------------------------------------------------|
-|---------------------------------------------------------------------------------------------------------------|
-75	|1.0_1.1_1.2_1.3_		     |                 							|
-76	|2.0_2.1_2.2_2.3_		     |                 							|
-77	|3.0_3.1.0_3.1.1_3.1.2_3.1.3_	     |                 							|
-78	|4.0_4.1.0_4.1.1_4.1.2_4.1.3_	     |                 							|
-79	|5.0_5.1.0_5.1.1_5.1.2_              |                 							|
-80	|5.0_5.2.0_5.2.1_5.2.2               |                 							|
-81	|5.1.3_	                             |                 							|
-82	|5.1.5_ >>> step: 71 139             |>>> from modulo_agencia.modulo_menu_agencia import Menu          	|
-83	|5.1.5_                              |                 							|
-84	|5.1.3_	                             |                 							|
-85	|5.1.5_                              |                 							|
-|	|                                    |								        |
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
