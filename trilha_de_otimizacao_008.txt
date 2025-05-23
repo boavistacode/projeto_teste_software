@@ -100,7 +100,7 @@ step:	|execution_track:		     |code				        			|
 |	|                                 259|>>> elif self.valor_dado_variavel == '0': 	        	|
 |	|                                 260|>>> from modulo_contas.modulo_menu_contas import Menu        	|
 |	|                                 261|>>> Menu.menu_opcao(self, agencia, lista_self)            	|
-|	|>>> step: 7                      118|# if self.valor_dado_variavel == '0':  		        	|
+|	|>>> step: 7                      118|# if self.valor_conta_variavel == '0':  		        	|
 |	|                                 119|#     ...	                                                 	|
 |	|                                 120|# else:                               		        	|
 |	|                                 121|#     self.valor_conta_variavel = input(f'\n{self.nome_conta}:\n')|
