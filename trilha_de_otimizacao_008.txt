@@ -287,3 +287,12 @@ step:	|execution_track:		     |code				        			|
 |	|>>> ...                          246|>>> self.agencia_transferir = None                                |
 |	|                                 247|>>> from modulo_contas.modulo_menu_contas import Menu            	|
 |	|                                 248|>>> Menu.menu_opcao(self, agencia, lista_self)	        	|
+|	|                                 251|>>> from modulo_contas.modulo_menu_contas import Menu            	|
+|	|                                 252|>>> Menu.menu_opcao(self, agencia, lista_self)	        	|
+|---------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------|
+23	|3.2.1.3_ >>> line 247 - 248         |                                                           	|
+|---------------------------------------------------------------------------------------------------------------|
+|	|>>> step: 23                     247|# from modulo_contas.modulo_menu_contas import Menu            	|
+|	|                                 248|# Menu.menu_opcao(self, agencia, lista_self)	        	|
+|	|                                 249|>>>     continue                                                  |
