@@ -34,7 +34,8 @@ step:	|execution_track:			|input:				|output:			|
 |	|...                    		|(-0002)    			|...				|
 17	|3.2.1.4_               		|       			|				|
 18	|3.3.1.1_                		|       			|lista_conta_0001.json  	|
-19	|3.3.1.3_               		|       			|lista_transferencia.json	|
+19	|3.3.1.3_               		|       			|...                    	|
+|	|...                    		|           			|lista_transferencia.json	|
 20	|3.2.1.1_               		|(4)    			|				|
 21	|3.2.1.2_               		|       			|				|
 22	|3.2.1.3_                		|(1)    			|				|
@@ -69,7 +70,8 @@ step:	|execution_track:			|input:				|output:			|
 43	|3.2.1.2_               		|(0002) 			|				|
 44	|3.2.1.4_                		|       			|				|
 45	|3.3.1.1_               		|       			|lista_conta_0001.json  	|
-46	|3.3.1.3_               		|       			|lista_transferencia.json	|
+46	|3.3.1.3_               		|       			|...                    	|
+|	|...                    		|           			|lista_transferencia.json	|
 47	|3.2.1.1_               		|(4)    			|				|
 48	|3.2.1.2_               		|       			|				|
 49	|3.2.1.3_               		|(1)    			|				|
@@ -84,7 +86,8 @@ step:	|execution_track:			|input:				|output:			|
 56	|3.2.1.2_              	        	|(0002)  			|				|
 57	|3.2.1.4_                		|       			|				|
 58	|3.3.1.1_                		|       			|lista_conta_0001.json  	|
-59	|3.3.1.3_                     		|       			|lista_transferencia.json	|
+59	|3.3.1.3_               		|       			|...                    	|
+|	|...                    		|           			|lista_transferencia.json	|
 60	|3.2.1.1_               		|(4)    			|				|
 61	|3.2.1.2_               		|       			|				|
 62	|3.2.1.3_               		|(2)    			|				|

@@ -1,7 +1,7 @@
 teste_v.0.0.8_projeto_sistema_bancario_v.0.0.5	
 017_2.2.6_3.2.1.2_interface_de_execucao_008
 ----------------------------------------------	
-05/06/2025												
+05/06/2025	
 ----------------------------------------------	
 step:	|execution_track:			|input:				|output:			|
 |---------------------------------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ step:	|execution_track:			|input:				|output:			|
 |---------------------------------------------------------------------------------------------------------------|
 |	|...					|                           	|lista_conta_0001.json  	|
 |---------------------------------------------------------------------------------------------------------------|
-|'Todas as ocorrências encontradas para 1234.'                                                                  |
+|'Todas as ocorrências encontradas para .'                                                                      |
 |---------------------------------------------------------------------------------------------------------------|
 |'Transferindo'                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------|
@@ -64,6 +64,13 @@ step:	|execution_track:			|input:				|output:			|
 |modulo_contas.modulo_lista_contas.transferir_variavel:    							|
 |---------------------------------------------------------------------------------------------------------------|
 |	|...					|                           	|lista_transferencia.json  	|
+|---------------------------------------------------------------------------------------------------------------|
+|'': {'Senha': '6014', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
+|0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', ''], 'RG': '1234', 'Nome': 'Oscar', 'Sexo'\n|
+|': m', 'Tipo Pessoa': 'Pessoa Física'}'                                                                        |
+|'': {'Senha': '1320', 'Conta Corrente': '11121', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
+|0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', ''], 'RG': '1234', 'Nome': 'Oscar', 'Sexo'\n|
+|': m', 'Tipo Pessoa': 'Pessoa Física'}'                                                                        |
 |---------------------------------------------------------------------------------------------------------------|
 8	|3.3.1.1_       		        								|
 |modulo_contas.modulo_contas.__init__:                  							|
@@ -170,6 +177,13 @@ step:	|execution_track:			|input:				|output:			|
 |modulo_contas.modulo_lista_contas.transferir_variavel:    							|
 |---------------------------------------------------------------------------------------------------------------|
 |	|...					|                           	|lista_transferencia.json  	|
+|---------------------------------------------------------------------------------------------------------------|
+|'0002': {'Senha': '6014', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Sald\n|
+|o': 0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002'], 'RG': '1234', 'Nome': 'Oscar'\n|
+|', 'Sexo': m', 'Tipo Pessoa': 'Pessoa Física'}'                                                                |
+|'0002': {'Senha': '1320', 'Conta Corrente': '11121', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Sald\n|
+|o': 0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002'], 'RG': '1234', 'Nome': 'Oscar'\n|
+|', 'Sexo': m', 'Tipo Pessoa': 'Pessoa Física'}'                                                                |
 |---------------------------------------------------------------------------------------------------------------|
 20	|3.2.1.1_               										|
 |modulo_contas.modulo_menu_contas.menu_opcao: 									|
@@ -373,6 +387,13 @@ step:	|execution_track:			|input:				|output:			|
 |---------------------------------------------------------------------------------------------------------------|
 |	|...					|                           	|lista_transferencia.json  	|
 |---------------------------------------------------------------------------------------------------------------|
+|'0002': {'Senha': '6014', 'Conta Corrente': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Sald\n|
+|o': 0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002'], 'RG': '1234', 'Nome': 'Oscar'\n|
+|', 'Sexo': m', 'Tipo Pessoa': 'Pessoa Física'}'                                                                |
+|'0002': {'Senha': '1320', 'Conta Corrente': '11122', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Sald\n|
+|o': 0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002'], 'RG': '1234', 'Nome': 'Oscar'\n|
+|', 'Sexo': m', 'Tipo Pessoa': 'Pessoa Física'}'                                                                |
+|---------------------------------------------------------------------------------------------------------------|
 47	|3.2.1.1_               										|
 |modulo_contas.modulo_menu_contas.menu_opcao: 									|
 |'Listar (1) / Cadastrar (2) / Retornar ocorrências (3) / Transferir (4) / Descadastrar (5)			|
@@ -461,6 +482,13 @@ step:	|execution_track:			|input:				|output:			|
 |modulo_contas.modulo_lista_contas.transferir_variavel:    							|
 |---------------------------------------------------------------------------------------------------------------|
 |	|...					|                           	|lista_transferencia.json  	|
+|---------------------------------------------------------------------------------------------------------------|
+|'0002': {'Senha': '6014', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Sald\n|
+|o': 0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002'], 'RG': '1234', 'Nome': 'Oscar'\n|
+|', 'Sexo': m', 'Tipo Pessoa': 'Pessoa Física'}'                                                                |
+|'0002': {'Senha': '1320', 'Conta Corrente': '21121', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Sald\n|
+|o': 0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002'], 'RG': '1234', 'Nome': 'Oscar'\n|
+|', 'Sexo': m', 'Tipo Pessoa': 'Pessoa Física'}'                                                                |
 |---------------------------------------------------------------------------------------------------------------|
 60	|3.2.1.1_                										|
 |modulo_contas.modulo_menu_contas.menu_opcao: 									|
