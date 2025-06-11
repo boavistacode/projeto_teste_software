@@ -13,11 +13,11 @@ step:	|execution_track:		     |code				        			|
 |---------------------------------------------------------------------------------------------------------------|
 |       |>>> step: 2 line                  47|>>> if __name__ == '__main__'   				        |
 |       | 		                   48|>>>    Agencia('0001').menu_self(None)				|   
-|       |>>> step: 5 line                  30|>>> if self.valor_matricula_acesso == '' or self.valor_senha \n   | 
+|       |>>> step: 5 line                  30|>>> if self.valor_matricula_acesso == '' or self.valor_senha \    | 
 |       |			           31|>>> _acesso == '':                      			        | 
 |       |			           32|>>>    print('Digite sua matrícula e senha.\n')    	        | 
 |       |			           33|>>>    from modulo_agencia.modulo_menu_agencia import Menu	| 
-|       |			           34|>>>    Menu.menu_autenticacao(self, lista_self, valor_ \n         | 
+|       |			           34|>>>    Menu.menu_autenticacao(self, lista_self, valor_ \          | 
 |       |			           35|>>>    agencia_filial)					        |   
 |---------------------------------------------------------------------------------------------------------------|
 11	|2.2.0_2.2.1.0_2.2.1.1_              |								        |     
@@ -44,12 +44,12 @@ step:	|execution_track:		     |code				        			|
 4	|2.2.1.2_  >>> line 61               |								        |
 |---------------------------------------------------------------------------------------------------------------|
 |       |>>> step: 2                       28|# def menu_agencia(self, lista_self):			        |
-|	|                                  29|#     __import__(self.modulo_agencia_numero).Agencia(self. \n     |
+|	|                                  29|#     __import__(self.modulo_agencia_numero).Agencia(self. \      |
 |	|                                  30|#     valor_agencia).menu_opcao(lista_self)		        |
 |       |>>> step: 3                       38|# def menu_opcao(self, lista_self):    			        |
 |	|                                  39|#        from modulo_agencia.modulo_menu_agencia import Menu	|
 |	|                                  40|#        Menu.menu_opcao(self, lista_self)     		        |
-|	|>>> step: 4                       62|# if opcao != '1' and opcao != '2' and opcao != '3' and opcao\n   |
+|	|>>> step: 4                       62|# if opcao != '1' and opcao != '2' and opcao != '3' and opcao \   |
 |	|                                  63|# != '4' and opcao != '5':		                        |
 |	|                                  64|#          print('Digite uma opção válida.')           	        |
 |---------------------------------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ step:	|execution_track:		     |code				        			|
 |---------------------------------------------------------------------------------------------------------------|
 |	|>>> step: 13                      55|>>> self_contas = lista_self.get('self_contas',)                  |
 |	|                                  56|# from modulo_pessoa.modulo_pessoa import Pessoa                  |
-|	|                                  57|# Pessoa(self.__dict__).menu_opcao(agencia, self.__dict__, lista\n|
+|	|                                  57|# Pessoa(self.__dict__).menu_opcao(agencia, self.__dict__, lista \|
 |	|                                  58|# _self)	                                                        |
 |	|                                  59|>>> from modulo_pessoa.modulo_menu_pessoa import Menu	        |
 |	|                                  60|>>> Menu.menu_opcao(self, agencia, self_contas, lista_self)       |
@@ -248,7 +248,7 @@ step:	|execution_track:		     |code				        			|
 |	|3.3.1.1_ >>> line 149               |                                                           	|
 |---------------------------------------------------------------------------------------------------------------|
 |	|>>> step: 59                     148|# print(f'\nlistar_ {self.valor_conta_variavel} possue cadastro.')|
-|	|...                              149|>>> print(f'\nlistar_ {self.valor_conta_variavel} possui cadastr\n|
+|	|...                              149|>>> print(f'\nlistar_ {self.valor_conta_variavel} possui cadastr \|
 |	|...                              149|>>> o.')                                                          |
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
@@ -265,9 +265,9 @@ step:	|execution_track:		     |code				        			|
 5	|3.3.1.1_ >>> line 179               |                                                           	|
 10	|3.3.1.1_ >>> line 9                 |                                                           	|
 |---------------------------------------------------------------------------------------------------------------|
-|	|>>> step: 5                      179|# print(f'\nTodas as ocorrências encontradas para {self.valor_da\n|
+|	|>>> step: 5                      179|# print(f'\nTodas as ocorrências encontradas para {self.valor_da \|
 |	|                                    |# do_variavel}.')                                                 |
-|	|                                 180|>>> print(f'\nTodas as ocorrências encontradas para {self.dado_v\n|
+|	|                                 180|>>> print(f'\nTodas as ocorrências encontradas para {self.dado_v \|
 |	|                                    |>>> variavel} {self.valor_dado_variavel}.')                       |
 |	|>>> step: 10                       9|>>> self.conta_transferir = False                                 |
 |---------------------------------------------------------------------------------------------------------------|
@@ -276,7 +276,7 @@ step:	|execution_track:		     |code				        			|
 |---------------------------------------------------------------------------------------------------------------|
 |	|>>> step: 15                     188|# print(f'\n{self.valor_dado_variavel} não possui nenhuma ocorrê\n|
 |	|                                    |# ncia.')                                                         |
-|	|                                 189|>>> print(f'\n{self.dado_variavel} {self.valor_dado_variavel} nã\n|
+|	|                                 189|>>> print(f'\n{self.dado_variavel} {self.valor_dado_variavel} nã \|
 |	|                                    |>>> o possui ocorrência.')                                        |
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
@@ -311,15 +311,32 @@ step:	|execution_track:		     |code				        			|
 |	|3.2.1.1_ >>> line 26                |                                                           	|
 |---------------------------------------------------------------------------------------------------------------|
 |	|>>> step: 79                      20|>>> self.valor_agencia = agencia['valor_agencia']                 |
-|	|>>> ... 3.3.1.1_                  10|>>> valor_agencia = agencia['valor_agencia']                      |
+|	|>>> ... 3.3.1.1_                  8|>>> valor_agencia = agencia['valor_agencia']                       |
 |	|                                  32|# if self.valor_agencia == agencia_transferir:                    |
 |	|                                  33|>>> if valor_agencia == agencia_transferir:                       |
 |	|>>> ... 3.3.1.2_                 209|>>> valor_agencia = agencia['valor_agencia']                      |
-|	|                                 223|# classe_nome: self.valor_agencia, self.tipo_conta: self.conta_v\n|
+|	|                                 223|# classe_nome: self.valor_agencia, self.tipo_conta: self.conta_v \|
 |	|                                    |# ariavel,                                                        |
-|	|                                 224|>>> classe_nome: valor_agencia, self.tipo_conta: self.conta_vari\n|
+|	|                                 224|>>> classe_nome: valor_agencia, self.tipo_conta: self.conta_vari \|
 |	|                                    |# avel,                                                           |
 |	|>>> ... 3.3.1.3_                 264|# agencia['valor_agencia'] = self.valor_agencia                   |
 |	|>>> ... 3.3.1.4_                 294|# agencia['valor_agencia'] = self.valor_agencia                   |
+|	|>>> ... 3.3.1.1_                   9|# self.lista_conta_json = f'lista_conta_{self.valor_agencia}.json'|
+|	|                                  10|# self.lista_pessoa_json = f'lista_pessoa_{self.valor_agencia}.  \|
+|	|                                    |# json'                                                           |
+|	|                                 218|# self.lista_conta_json = f'lista_conta_{self.valor_agencia}.json'|
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
+|020_2.2.5_3.2.1.2_                                                                                             |
+|---------------------------------------------------------------------------------------------------------------|
+	|>>> line                            |                                                           	|
+|---------------------------------------------------------------------------------------------------------------|
+|	|>>> 3.3.1.4_                     282|# valor_agencia = agencia['valor_agencia']                        |
+|	|                                 283|# self.lista_conta_json = f'lista_conta_{valor_agencia}.json'     |
+|	|                                 308|# from modulo_contas.modulo_contas import Contas        	        |
+|	|                                 309|# Contas(agencia).menu_opcao(agencia, lista_self)         	|
+|	|                                 310|>>> from modulo_contas.modulo_menu_contas import Menu    	        |
+|	|                                 311|>>> Menu.menu_opcao(agencia, lista_self)                    	|
+|---------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------|
+

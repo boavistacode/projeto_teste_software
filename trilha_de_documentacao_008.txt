@@ -153,3 +153,16 @@ step:	|execution_track:		     |docstring				        			|
 |018_2.2.4_3.2.1.2_                                                                                             |
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
+|019_2.3.0_1.3.1.1_                                                                                             |
+|---------------------------------------------------------------------------------------------------------------|
+92	|3.3.1.1_ >>> line 26 - 29           |"""			                                        |
+|	|                                    |Sempre que a função listar_acao é acionada self.lista_temporaria \|
+|	|                                    |será acionada, se não estiver vazia, para realizar as transferên \|
+|	|                                    |cias para as devidas agências solicitadas. A self.lista_temporar \|
+|	|                                    |ia contém as contas transferidas para as suas devidas agências d \|
+|	|                                    |escritas na chave: agencia_transferir"""                          |
+|	|>>> line 64 - 66                    |"""			                                        |
+|	|                                    |Os dados referentes ao Tipo Pessoa serão acrescentadas a self.li \|
+|	|                                    |sta_pessoa e inseridas na lista_pessoa própria da agência."""     |
+|---------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------|
