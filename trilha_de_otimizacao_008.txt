@@ -14,67 +14,11 @@ step:	|execution_track:		     |code				        			|
 |003_2.1.0_2.2.1.2_                                                                                             |
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
-
-
 |004_2.2.0_3.2.1.1_                                                                                             |
 |---------------------------------------------------------------------------------------------------------------|
-13	|3.2.1.1_ >>> line 56 - 57           |                                   		        	|
 |---------------------------------------------------------------------------------------------------------------|
-|	|>>> step: 13                      60|>>> self_pessoa = lista_self.get('self_pessoa',)                  |
-|	|                                  61|# from modulo_pessoa.modulo_pessoa import Pessoa                  |
-|	|                                    |# Pessoa(self.__dict__).menu_opcao(agencia, self.__dict__, lista \|
-|	|                                  62|# _self)	                                                        |
-|	|                                  63|>>> from modulo_pessoa.modulo_menu_pessoa import Menu	        |
-|	|                                  64|>>> Menu.menu_opcao(self_pessoa, agencia, self, lista_self)       |
-|	|>>> 4.1.4_ 		           43|# def menu_opcao(self, agencia, contas, lista_self):   # 4.1.4_   |
-|	|                                  44|#     from modulo_pessoa.modulo_menu_pessoa import Menu           |
-|	|                                  45|#     Menu.menu_opcao(self, agencia, contas, lista_self)  	|
-|---------------------------------------------------------------------------------------------------------------|
-6	|3.2.1.3_ >>> line 247 - 295         |                                   		        	|
-7	|3.2.1.2_ >>> line 115		     |                                   		        	|
-|---------------------------------------------------------------------------------------------------------------|
-|	|>>> step: 6                      295|>>> if self.valor_dado_variavel == '':  		        	|
-|	|                                 296|>>> print('\nDigite_ uma opção válida.\n')	        	|
-|	|                                 297|>>> continue                       		        	|
-|	|                                 299|>>> elif self.valor_dado_variavel == '0': 	        	|
-|	|                                 300|>>> from modulo_contas.modulo_menu_contas import Menu        	|
-|	|                                 301|>>> Menu.menu_opcao(self, agencia, lista_self)            	|
-|	|>>> step: 7                      115|# if self.valor_conta_variavel == '0':  		        	|
-|	|                                 116|#     ...	                                                 	|
-|	|                                 117|# else:                               		        	|
-|	|                                 118|#     self.valor_conta_variavel = input(f'\n{self.nome_conta}:\n')|
-|	|                                 125|>>> self.valor_conta_variavel = input(f'\n{self.nome_conta}:\n')  |
-|---------------------------------------------------------------------------------------------------------------|
-15	|3.2.1.2_ >>> line 112               |                                   		        	|
-|---------------------------------------------------------------------------------------------------------------|
-|	|>>> step: 15 4.3.1.1_             7 |# self.conta_cadastrada = contas['conta_cadastrada']       	|
-|	|                                  8 |>>> conta_cadastrada = contas['conta_cadastrada']	                |
-|	|                                  11|# if self.conta_cadastrada is False:                              |
-|	|                                  12|>>> if conta_cadastrada is False:                                 |
-|	|                                  13|# self.valor_conta_variavel = contas['valor_conta_variavel']	|
-|	|                                  14|>>> valor_conta_variavel = contas['valor_conta_variavel']	        |
-|	|                                  15|# self.conta_variavel = contas['conta_variavel']   	        |
-|	|                                  16|>>> conta_variavel = contas['conta_variavel']              	|
-|	|                                  54|# if self.opcao == 'Listar' and self.conta_cadastrada is False:	|
-|	|                                  55|>>> if self.opcao == 'Listar' and conta_cadastrada is False: 	|
-|	|                                  72|# if self.conta_cadastrada is False:       	                |
-|	|                                  73|>>> if conta_cadastrada is False:    		        	|
-|	|                                  75|# agencia.update(valor_conta_variavel=self.valor_conta_variavel)  |
-|	|                                  76|>>> agencia.update(valor_conta_variavel=valor_conta_variavel)     |
-|	|                                  77|# agencia.update(conta_variavel=self.conta_variavel)        	|
-|	|                                  78|>>> agencia.update(conta_variavel=conta_variavel)     	        |
-|	|                                  89|# if self.conta_cadastrada is False:                              |
-|	|                                  90|>>> if conta_cadastrada is False:                                 |
-|	|                                 114|# self.conta_cadastrada = False                                   |
-|	|                                 115|>>> conta_cadastrada = False         		        	|
-|	|                                 158|# if self.conta_cadastrada is False:   		        	|
-|	|                                 159|>>> if conta_cadastrada is False:      		        	|
-|	|                                 169|# agencia.update(valor_conta_variavel=self.valor_conta_variavel)	|
-|	|                                 170|>>> agencia.update(valor_conta_variavel=valor_conta_variavel)     |
-|	|                                 171|# agencia.update(conta_variavel=self.conta_variavel)	        |
-|	|                                 172|>>> agencia.update(conta_variavel=conta_variavel)   	        |
-|---------------------------------------------------------------------------------------------------------------|
-|---------------------------------------------------------------------------------------------------------------|
+
+
 |005_2.3.0_1.3.1.1_                                                                                             |
 |---------------------------------------------------------------------------------------------------------------|
 1	|1.2.0_1.2.1.0_                      |                                   		        	|
