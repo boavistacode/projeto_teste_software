@@ -72,42 +72,6 @@ step:	|execution_track:			|input:				|output:			|
 |	|...					|(5)                    	|				|
 |	|3.2.1.6_                 										|
 |	|...					|(1)                    	|				|
-|	|...					|(11111)                    	|				|
-|	|3.3.1.1_                   										|
-|'Conta Corrente 11111 está inativa.'                                						|
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-|{'Senha': '3898', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n| 
-|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002', None], 'RG': '1234', 'Nome': 'Oscar', \n|
-|'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                   |
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-15	|3.2.1.1_                										|
-|	|...					|(5)                    	|				|
-|	|3.2.1.6_                 										|
-|	|...					|(1)                    	|				|
-|	|...					|(-11112)                    	|				|
-|	|3.3.1.1_                   										|
-|'Conta Poupança 11112 está inativa.'                                						|
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-|{'Senha': '5656', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0, '\n| 
-|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002', None], 'RG': '2345', 'Nome': 'Gabriel'\n|
-|, 'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                 |
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-|	|3.2.1.1_                										|
-|	|...					|(5)                    	|				|
-|	|3.2.1.6_                 										|
-|	|...					|(1)                    	|				|
-|	|...					|(-21111)                    	|				|
-20	|3.3.1.1_                   										|
-|'Conta Corrente 21111 está inativa.'                                						|
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-|{'Senha': '3857', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n| 
-|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002', None], 'CNPJ': '12345', 'Nome': 'BV Co\n|
-|de', 'Tipo Pessoa': 'Pessoa Jurídica'}                                                                         |
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-|	|3.2.1.1_                										|
-|	|...					|(5)                    	|				|
-|	|3.2.1.6_                 										|
-|	|...					|(1)                    	|				|
 |	|...					|(-11131)                    	|				|
 |	|3.3.1.1_                   										|
 |'Conta Corrente 11131 não está cadastrada.'               							|
