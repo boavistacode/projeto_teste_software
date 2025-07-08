@@ -1,5 +1,5 @@
 teste_v.0.0.8_projeto_sistema_bancario_v.0.0.6	
-010_2.2.3_3.2.1.4_interface_de_execucao_008
+014_2.2.3_3.2.1.4_interface_de_execucao_008
 ----------------------------------------------	
 18/06/2025
 ----------------------------------------------	
@@ -11,7 +11,7 @@ step:	|execution_track:			|input:				|output:			|
 |'Agência 0001'                     	                                        				|
 |'Contas'                                                                                                       |
 |'Menu (0)'                              									|
-|'Listar (1) / Cadastrar (2) / Retornar ocorrências (3) / Transferir (4) / Descadastrar (5)			|
+|'Cliente (1) / Cadastrar (2) / Retornar ocorrências (3) / Transferir (4) / Descadastrar (5)			|
 |Pessoa (6) / Agência (7) / Matriz (8) / Sair (9):'                     					|
 |---------------------------------------------------------------------------------------------------------------|
 |	|					|(3)                    	|				|
@@ -47,12 +47,15 @@ step:	|execution_track:			|input:				|output:			|
 |	|...					|(1)                    	|				|
 |	|...					|(-1234)                    	|				|
 |---------------------------------------------------------------------------------------------------------------|
-7	|3.3.1.1_       		        								|
+7	|3.3.0_3.3.1.0_3.3.1.1_ 	        								|
 |modulo_contas.modulo_lista_contas.listar_acao:             							|
 |---------------------------------------------------------------------------------------------------------------|
-|'v = {'Senha': '3898', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo':\n|
-| 0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001'], 'RG': '1234', 'Nome': 'Oscar', 'Sexo': '\n|
-|m', 'Tipo Pessoa': 'Pessoa Física'}'                                                                           |
+|v = {'Senha': '1155', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
+|90, 'Débito': 0, 'Crédito': 90, 'Extrato': [{'mês': '7', '7': [{'Depósito': 100}, {'Saldo': 90}]}], 'Históric\n|
+|o': ['0001'], 'RG': '1234', 'Nome': 'Oscar', 'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                      |
+|v = {'Senha': '5452', 'Conta Corrente': '11131', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
+|0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001'], 'RG': '1234', 'Nome': 'Oscar', 'Sexo': 'm\n|
+|', 'Tipo Pessoa': 'Pessoa Física'}                                                                             |
 |---------------------------------------------------------------------------------------------------------------|
 |'Todas as ocorrências encontradas para RG 1234.'                                                               |
 |---------------------------------------------------------------------------------------------------------------|
@@ -63,7 +66,10 @@ step:	|execution_track:			|input:				|output:			|
 |	|...					|(-2345)                    	|				|
 10	|3.3.1.1_       		        								|
 |---------------------------------------------------------------------------------------------------------------|
-|v = {'Senha': '5656', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': \n|
+|v = {'Senha': '3999', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': \n|
+|100, 'Débito': 0, 'Crédito': 100, 'Extrato': [{'mês': '7', '7': [{'Depósito': 100}, {'Saldo': 100}]}], 'Histó\n|
+|rico': ['0001'], 'RG': '2345', 'Nome': 'Gabriel', 'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}               \n|
+|v = {'Senha': '2485', 'Conta Poupança': '11122', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': \n|
 |0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001'], 'RG': '2345', 'Nome': 'Gabriel', 'Sexo': \n|
 |'m', 'Tipo Pessoa': 'Pessoa Física'}                                                                           |
 |---------------------------------------------------------------------------------------------------------------|
@@ -91,9 +97,12 @@ step:	|execution_track:			|input:				|output:			|
 |---------------------------------------------------------------------------------------------------------------|
 14	|3.3.1.1_       		        								|
 |---------------------------------------------------------------------------------------------------------------|
-|'v = {'Senha': '3857', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo':\n|
+|v = {'Senha': '9414', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
+|90, 'Débito': 0, 'Crédito': 90, 'Extrato': [{'mês': '7', '7': [{'Depósito': 100}, {'Saldo': 90}]}], 'Históric\n|
+|o': ['0001'], 'CNPJ': '12345', 'Nome': 'BV Code', 'Tipo Pessoa': 'Pessoa Jurídica'}                          \n|
+|v = {'Senha': '2842', 'Conta Corrente': '21112', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
 |0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001'], 'CNPJ': '12345', 'Nome': 'BV Code', 'Tipo\n|
-| Pessoa': 'Pessoa Jurídica'}'                                                                                  |
+| Pessoa': 'Pessoa Jurídica'}                                                                                   |
 |---------------------------------------------------------------------------------------------------------------|
 |'Todas as ocorrências encontradas para CNPJ 12345.'                                                            |
 |---------------------------------------------------------------------------------------------------------------|

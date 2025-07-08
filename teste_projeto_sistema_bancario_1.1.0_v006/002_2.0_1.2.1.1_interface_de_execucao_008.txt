@@ -37,7 +37,7 @@ step:	|execution_track:			|input:				|output:			|
 |'Agência 0001'                     	                                        				|
 |'Contas'                                                                                                       |
 |'Menu (0)'                                                                                                     |
-|'Listar (1) / Cadastrar (2) / Retornar ocorrências (3) / Transferir (4) / Descadastrar (5)			|
+|'Cliente (1) / Cadastrar (2) / Retornar ocorrências (3) / Transferir (4) / Descadastrar (5)			|
 |Pessoa (6) / Agência (7) / Matriz (8) / Sair (9):'                     					|
 |---------------------------------------------------------------------------------------------------------------|
 |	|...      				|(8)         			|				|
