@@ -1,5 +1,5 @@
 teste_v.0.0.8_projeto_sistema_bancario_v.0.0.6	
-014_2.2.5_3.2.1.6_interface_de_execucao_008
+016_2.2.5_3.2.1.6_interface_de_execucao_008
 ----------------------------------------------	
 21/06/2025	
 ----------------------------------------------	
@@ -11,7 +11,7 @@ step:	|execution_track:			|input:				|output:			|
 |'Agência 0001'                     	                                        				|
 |'Contas'                                                                                                       |
 |'Menu (0)'                              									|
-|'Listar (1) / Cadastrar (2) / Retornar ocorrências (3) / Transferir (4) / Inativar (5) 			|
+|'Cliente (1) / Cadastrar (2) / Retornar ocorrências (3) / Transferir (4) / Inativar (5) 			|
 |Pessoa (6) / Agência (7) / Matriz (8) / Sair (9):'                     					|
 |---------------------------------------------------------------------------------------------------------------|
 |	|					|(5)                    	|				|
@@ -34,15 +34,10 @@ step:	|execution_track:			|input:				|output:			|
 |	|...					|(1)                    	|				|
 |	|...					|(-11111)                    	|				|
 |---------------------------------------------------------------------------------------------------------------|
-5	|3.3.0_3.3.1.0_3.3.1.1_    										|
+|	|3.3.0_3.3.1.0_3.3.1.1_    										|
 |modulo_contas.modulo_lista_contas.listar_acao:         							|
 |---------------------------------------------------------------------------------------------------------------|
-|'Conta Corrente 11111 está inativa.'                                						|
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-|{'Senha': '3898', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n| 
-|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002', None], 'RG': '1234', 'Nome': 'Oscar', \n|
-|'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                   |
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
+|'_Conta Corrente 11111 está inativa.'                         							|
 |---------------------------------------------------------------------------------------------------------------|
 |	|3.2.1.1_                										|
 |	|...					|(5)                    	|				|
@@ -50,47 +45,95 @@ step:	|execution_track:			|input:				|output:			|
 |	|...					|(1)                    	|				|
 |	|...					|(-11112)                    	|				|
 |	|3.3.1.1_                   										|
-|'Conta Poupança 11112 está inativa.'                                						|
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-|{'Senha': '5656', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0, '\n| 
-|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002', None], 'RG': '2345', 'Nome': 'Gabriel'\n|
-|, 'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                 |
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-|	|3.2.1.1_                										|
-|	|...					|(5)                    	|				|
-10	|3.2.1.6_                 										|
-|	|...					|(1)                    	|				|
-|	|...					|(-21111)                    	|				|
-|	|3.3.1.1_                   										|
-|'Conta Corrente 21111 está inativa.'                                						|
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
-|{'Senha': '3857', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n| 
-|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', '0002', None], 'CNPJ': '12345', 'Nome': 'BV Co\n|
-|de', 'Tipo Pessoa': 'Pessoa Jurídica'}                                                                         |
-|'INATIVA ##### INATIVA ##### INATIVA'                                						|
+|'_Conta Poupança 11112 está inativa.'                         							|
 |	|3.2.1.1_                										|
 |	|...					|(5)                    	|				|
 |	|3.2.1.6_                 										|
 |	|...					|(1)                    	|				|
-|	|...					|(-11131)                    	|				|
+|	|...					|(-21111)                    	|				|
 |	|3.3.1.1_                   										|
-|'Conta Corrente 11131 não está cadastrada.'               							|
+|'_Conta Corrente 21111 está inativa.'                         							|
 |	|3.2.1.1_                										|
 |	|...					|(5)                    	|				|
-25	|3.2.1.6_                 										|
+|	|3.2.1.6_                 										|
 |	|...					|(1)                    	|				|
-|	|...					|(-11132)                    	|				|
+|	|...					|(-11121)                    	|				|
+|---------------------------------------------------------------------------------------------------------------|
+|'_Conta Corrente 11121 está sendo inativada.'                         						|
+|'INATIVA ##### INATIVA ##### INATIVA'                                						|
+|{'Senha': '9862', 'Conta Corrente': '11121', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n| 
+|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', None], 'RG': '3456', 'Nome': 'Fulana', 'Sexo':\n|
+| 'f', 'Tipo Pessoa': 'Pessoa Física'}                                                                          |
+|'INATIVA ##### INATIVA ##### INATIVA'                                						|
+|---------------------------------------------------------------------------------------------------------------|
+|	|3.2.1.1_                										|
+|	|...					|(5)                    	|				|
+|	|3.2.1.6_                 										|
+|	|...					|(1)                    	|				|
+|	|...					|(-11122)                    	|				|
 |	|3.3.1.1_                   										|
-|'Conta Corrente 11132 não está cadastrada.'               							|
+|'_Conta Poupança 11122 está sendo inativada.'                     						|
+|'INATIVA ##### INATIVA ##### INATIVA'                                						|
+|{'Senha': '2485', 'Conta Poupança': '11122', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0, '\n| 
+|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', None], 'RG': '2345', 'Nome': 'Gabriel', 'Sexo'\n|
+|: 'm, 'Tipo Pessoa': 'Pessoa Física'}                                                                          |
+|'INATIVA ##### INATIVA ##### INATIVA'                                						|
 |	|3.2.1.1_                										|
 |	|...					|(5)                    	|				|
 |	|3.2.1.6_                 										|
 |	|...					|(1)                    	|				|
 |	|...					|(-21112)                    	|				|
 |	|3.3.1.1_                   										|
-|'Conta Corrente 21112 não está cadastrada.'               							|
-30	|3.2.1.1_                										|
+|'_Conta Corrente 21112 está sendo inativada.'                     						|
+|'INATIVA ##### INATIVA ##### INATIVA'                                						|
+|{'Senha': '2842', 'Conta Corrente': '21112', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
+|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001', None], 'CNPJ': '12345', 'Nome': 'BV Code', 'Ti\n|
+|po Pessoa': 'Pessoa Jurídica'}                                                                                 |
+|'INATIVA ##### INATIVA ##### INATIVA'                                						|
+|	|3.2.1.1_                										|
 |	|...					|(5)                    	|				|
+|	|3.2.1.6_                 										|
+|	|...					|(1)                    	|				|
+|	|...					|(-11141)                    	|				|
+|	|3.3.1.1_                   										|
+|'_Conta Corrente 11141 não está cadastrada.'               							|
+|	|3.2.1.1_                										|
+|	|...					|(5)                    	|				|
+|	|3.2.1.6_                 										|
+|	|...					|(1)                    	|				|
+|	|...					|(-11132)                    	|				|
+|	|3.3.1.1_                   										|
+|'_Conta Poupança 11132 não está cadastrada.'               							|
+|	|3.2.1.1_                										|
+|	|...					|(5)                    	|				|
+|	|3.2.1.6_                 										|
+|	|...					|(1)                    	|				|
+|	|...					|(-21113)                    	|				|
+|	|3.3.1.1_                   										|
+|'_Conta Corrente 21113 não está cadastrada.'               							|
+|	|3.2.1.1_                										|
+|	|...					|(5)                    	|				|
+|	|3.2.1.6_                 										|
+|	|...					|(1)                    	|				|
+|	|...					|(11121)                    	|				|
+|	|3.3.1.1_                  										|
+|'_Conta Corrente 11121 está inativa.'                         							|
+|	|3.2.1.1_                										|
+|	|...					|(5)                    	|				|
+|	|3.2.1.6_                 										|
+|	|...					|(1)                    	|				|
+|	|...					|(11122)                    	|				|
+|	|3.3.1.1_                   										|
+|'_Conta Poupança 11122 está inativa.'                         							|
+|	|3.2.1.1_                										|
+|	|...					|(5)                    	|				|
+|	|3.2.1.6_                 										|
+|	|...					|(1)                    	|				|
+|	|...					|(21112)                    	|				|
+|	|3.3.1.1_                   										|
+|'_Conta Corrente 21112 está inativa.'                         							|
+|	|3.2.1.1_                										|
+|	|...					|(6)                    	|				|
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------|
