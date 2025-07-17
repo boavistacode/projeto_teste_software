@@ -100,7 +100,7 @@ step:	|execution_track:			|input:				|output:			|
 24	|3.3.1.2_                      										|
 |	|					|                           	|lista_contas_0001.json         |
 |---------------------------------------------------------------------------------------------------------------|
-|{'Senha': '5771', 'Conta Corrente': '11121', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n| 
+|{'Senha': '5771', 'Conta Corrente': '11121', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
 |Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11121']], 'RG': '3456', 'Nome': 'Fulana', 'S\n|
 |exo': 'f','Tipo Pessoa': 'Pessoa Física'}                                                                      |
 |---------------------------------------------------------------------------------------------------------------|

@@ -35,9 +35,9 @@ step:	|execution_track:                	|input:				|output:			|
 |modulo_contas.modulo_lista_contas.listar_acao:             							|
 |---------------------------------------------------------------------------------------------------------------|
 |'listar_ Conta 11111 possui cadastro.'                                                                         |
-|{'Senha': '1155', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
-|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001'], 'RG': '1234', 'Nome': 'Oscar', 'Sexo': 'm', '\n|
-|Tipo Pessoa': 'Pessoa Física'}                                                                                 |
+|{'Senha': '4679', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
+|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11111']], 'RG': '1234', 'Nome': 'Oscar', 'Se\n|
+|xo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                      |
 |---------------------------------------------------------------------------------------------------------------|
 |	|5.2.0_5.2.1.0_5.2.1.2_     										|
 |modulo_cliente.modulo_menu_cliente.menu_opcao: 								|
@@ -56,9 +56,9 @@ step:	|execution_track:                	|input:				|output:			|
 |	|...					|(11112)                    	|				|
 |	|3.3.1.1_                 										|
 |'listar_ Conta 11112 possui cadastro.'                                                                         |
-|{'Senha': '3999', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0, '\n|
-|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001'], 'RG': '2345', 'Nome': 'Gabriel', 'Sexo': 'm',\n|
-| 'Tipo Pessoa': 'Pessoa Física'}                                                                               |
+|{'Senha': '2123', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0, '\n|
+|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11112']], 'RG': '2345', 'Nome': 'Gabriel', '\n|
+|Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                    |
 |	|5.2.1.2_                 										|
 |	|...					|(5)                    	|				|
 |	|3.2.1.1_                										|
@@ -67,9 +67,9 @@ step:	|execution_track:                	|input:				|output:			|
 |	|...					|(21111)                    	|				|
 |	|3.3.1.1_                 										|
 |'listar_ Conta 21111 possui cadastro.'                                                                         |
-|{'Senha': '3857', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0,\n  |
-|'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': ['0001'], 'CNPJ': '12345', 'Nome': 'BV Code', 'Tipo Pe\n|
-|ssoa': 'Pessoa Jurídica'}                                                                                      |
+|{'Senha': '1197', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
+|Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '21111']], 'CNPJ': '12345', 'Nome': 'BV Code'\n|
+|, 'Tipo Pessoa': 'Pessoa Jurídica'}                                                                            |
 |	|5.2.1.2_                 										|
 |	|...					|(1)                    	|				|
 |---------------------------------------------------------------------------------------------------------------|
