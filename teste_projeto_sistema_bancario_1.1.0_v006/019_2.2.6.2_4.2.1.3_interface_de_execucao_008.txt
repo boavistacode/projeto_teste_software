@@ -125,19 +125,20 @@ step:	|execution_track:			|input:				|output:			|
 |	|4.2.1.1_                										|
 |	|					|(2)                    	|				|
 |	|4.2.1.4_ 	                									|
-|	|					|(1)                    	|				|
-|	|					|(3456)                    	|				|
-|	|4.3.1.1_ 	                									|
-|'cadastrar RG 3456 possui cadastro.'                                                                           |
-|{'RG': '3456', 'Nome': 'Fulana', 'Sexo': 'f', 'Tipo Pessoa': 'Pessoa Física'}                                  |
-|	|4.2.1.1_                										|
-|	|					|(2)                    	|				|
-|	|4.2.1.4_ 	                									|
 |	|					|(2)                    	|				|
 |	|					|(12345)                    	|				|
 |	|					|(BV Code)                 	|				|
 |	|4.3.1.1_ 	                									|
 |'cadastrar CNPJ 12345 possui cadastro.'                                                                        |
+|{'CNPJ': '12345', 'Nome': 'BV Code', 'Tipo Pessoa': 'Pessoa Jurídica'}                                         |
+|	|4.2.1.1_                										|
+|	|					|(2)                    	|				|
+|	|4.2.1.4_ 	                									|
+|	|					|(2)                    	|				|
+|	|					|(-23456)                    	|				|
+|	|					|(BV Code)                 	|				|
+|	|4.3.1.1_ 	                									|
+|'cadastrar BV Code possui cadastro: CNPJ 12345.'                                                               |
 |{'CNPJ': '12345', 'Nome': 'BV Code', 'Tipo Pessoa': 'Pessoa Jurídica'}                                         |
 |	|4.2.1.1_                										|
 |	|					|(6)                    	|				|
