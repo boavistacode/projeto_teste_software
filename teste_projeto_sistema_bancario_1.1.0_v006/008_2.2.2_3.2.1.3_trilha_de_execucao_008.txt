@@ -46,7 +46,7 @@ step:	|execution_track:			|input:				|output:			|
 8	|3.3.1.2_                      										|
 |	|					|                           	|lista_contas_0001.json         |
 |---------------------------------------------------------------------------------------------------------------|
-|{'Senha': '4679', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
+|{'Senha': '5672', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
 |Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11111']], 'RG': '1234', 'Nome': 'Oscar', 'Se\n|
 |xo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                      |
 |---------------------------------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ step:	|execution_track:			|input:				|output:			|
 16	|3.3.1.2_                      										|
 |	|					|                           	|lista_contas_0001.json         |
 |---------------------------------------------------------------------------------------------------------------|
-|{'Senha': '2123', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0, '\n|
+|{'Senha': '9530', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0, '\n|
 |Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11112']], 'RG': '2345', 'Nome': 'Gabriel', '\n|
 |Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                    |
 |---------------------------------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ step:	|execution_track:			|input:				|output:			|
 24	|3.3.1.2_                      										|
 |	|					|                           	|lista_contas_0001.json         |
 |---------------------------------------------------------------------------------------------------------------|
-|{'Senha': '5771', 'Conta Corrente': '11121', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
+|{'Senha': '0309', 'Conta Corrente': '11121', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
 |Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11121']], 'RG': '3456', 'Nome': 'Fulana', 'S\n|
 |exo': 'f','Tipo Pessoa': 'Pessoa Física'}                                                                      |
 |---------------------------------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ step:	|execution_track:			|input:				|output:			|
 31	|3.3.1.2_                      										|
 |	|					|                           	|lista_contas_0001.json         |
 |---------------------------------------------------------------------------------------------------------------|
-|{'Senha': '1197', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
+|{'Senha': '4482', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
 |Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '21111']], 'CNPJ': '12345', 'Nome': 'BV Code'\n|
 |, 'Tipo Pessoa': 'Pessoa Jurídica'}                                                                            |
 |---------------------------------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ step:	|execution_track:			|input:				|output:			|
 37	|3.3.1.2_                      										|
 |	|					|                           	|lista_contas_0001.json         |
 |---------------------------------------------------------------------------------------------------------------|
-|{'Senha': '8138', 'Conta Corrente': '11131', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
+|{'Senha': '9205', 'Conta Corrente': '11131', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
 |Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11131']], 'RG': '1234', 'Nome': 'Oscar', 'Se\n|
 |xo': 'm','Tipo Pessoa': 'Pessoa Física'}                                                                       |
 |---------------------------------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ step:	|execution_track:			|input:				|output:			|
 43	|3.3.1.2_                      										|
 |	|					|                           	|lista_contas_0001.json         |
 |---------------------------------------------------------------------------------------------------------------|
-|{'Senha': '9176', 'Conta Poupança': '11122', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0, '\n|
+|{'Senha': '9103', 'Conta Poupança': '11122', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0, '\n|
 |Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11122']], 'RG': '2345', 'Nome': 'Gabriel', '\n|
 |Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                    |
 |---------------------------------------------------------------------------------------------------------------|
@@ -176,7 +176,7 @@ step:	|execution_track:			|input:				|output:			|
 49	|3.3.1.2_                      										|
 |	|					|                           	|lista_contas_0001.json         |
 |---------------------------------------------------------------------------------------------------------------|
-|{'Senha': '8574', 'Conta Corrente': '21112', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
+|{'Senha': '6859', 'Conta Corrente': '21112', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0, '\n|
 |Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '21112']], 'CNPJ': '12345', 'Nome': 'BV Code'\n|
 |, 'Tipo Pessoa': 'Pessoa Jurídica'}                                                                            |
 |---------------------------------------------------------------------------------------------------------------|

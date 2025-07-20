@@ -50,12 +50,13 @@ step:	|execution_track:			|input:				|output:			|
 7	|3.3.0_3.3.1.0_3.3.1.1_ 	        								|
 |modulo_contas.modulo_lista_contas.listar_acao:             							|
 |---------------------------------------------------------------------------------------------------------------|
-|v = {'Senha': '4679', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
-|90, 'Débito': 0, 'Crédito': 90, 'Extrato': [{'mês': '7', '7': [{'Depósito': 100}, {'Saldo': 90}]}], 'Históric\n|
-|o': [['0001', , '11111']], 'RG': '1234', 'Nome': 'Oscar', 'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}         |
-|v = {'Senha': '8138', 'Conta Corrente': '11131', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
-|0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', , '11131']], 'RG': '1234', 'Nome': 'Oscar\n|
-|', 'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                |
+|v =  {'Senha': '5672', 'Conta Corrente': '11111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 9|
+|0, 'Débito': 0, 'Crédito': 90, 'Extrato': [{'mês': '7', '7': {'mês': '7', 'Saldo': 90, 'Crédito': 90, 'Débito':|
+| 0, 'Saque': 10, 'Depósito': 100}}], 'Histórico': [['0001', '11111']], 'RG': '1234', 'Nome': 'Oscar', 'Sexo': '|
+|m', 'Tipo Pessoa': 'Pessoa Física'}                                                                            |
+|v = {'Senha': '9205', 'Conta Corrente': '11131', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0,|
+| 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11131']], 'RG': '1234', 'Nome': 'Oscar', 'Se|
+|xo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                      |
 |---------------------------------------------------------------------------------------------------------------|
 |'Todas as ocorrências encontradas para RG 1234.'                                                               |
 |---------------------------------------------------------------------------------------------------------------|
@@ -66,12 +67,13 @@ step:	|execution_track:			|input:				|output:			|
 |	|...					|(-2345)                    	|				|
 10	|3.3.1.1_       		        								|
 |---------------------------------------------------------------------------------------------------------------|
-|v = {'Senha': '2123', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': \n|
-|100, 'Débito': 0, 'Crédito': 100, 'Extrato': [{'mês': '7', '7': [{'Depósito': 100}, {'Saldo': 100}]}], 'Histó\n|
-|rico': [['0001', '11112']], 'RG': '2345', 'Nome': 'Gabriel', 'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}    \n|
-|v = {'Senha': '9176', 'Conta Poupança': '11122', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': \n|
-|0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11122']], 'RG': '2345', 'Nome': 'Gabriel\n|
-|', 'Sexo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                |
+|v = {'Senha': '9530', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 10|
+|0, 'Débito': 0, 'Crédito': 100, 'Extrato': [{'mês': '7', '7': {'mês': '7', 'Saldo': 100, 'Crédito': 100, 'Débit|
+|o': 0, 'Saque': 10, 'Depósito': 100}}], 'Histórico': [['0001', '11112']], 'RG': '2345', 'Nome': 'Gabriel', 'Sex|
+|o': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                       |
+|v = {'Senha': '9103', 'Conta Poupança': '11122', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 0,|
+| 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '11122']], 'RG': '2345', 'Nome': 'Gabriel', '|
+|S exo': 'm', 'Tipo Pessoa': 'Pessoa Física'}                                                                   |
 |---------------------------------------------------------------------------------------------------------------|
 |'Todas as ocorrências encontradas para RG 2345.'                                                               |
 |---------------------------------------------------------------------------------------------------------------|
@@ -97,12 +99,13 @@ step:	|execution_track:			|input:				|output:			|
 |---------------------------------------------------------------------------------------------------------------|
 14	|3.3.1.1_       		        								|
 |---------------------------------------------------------------------------------------------------------------|
-|v = {'Senha': '1197', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
-|90, 'Débito': 0, 'Crédito': 90, 'Extrato': [{'mês': '7', '7': [{'Depósito': 100}, {'Saldo': 90}]}], 'Históric\n|
-|o': [['0001', '21111']], 'CNPJ': '12345', 'Nome': 'BV Code', 'Tipo Pessoa': 'Pessoa Jurídica'}               \n|
-|v = {'Senha': '8574', 'Conta Corrente': '21112', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': \n|
-|0, 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '21112']], 'CNPJ': '12345', 'Nome': 'BV C\n|
-|ode', 'Tipo Pessoa': 'Pessoa Jurídica'}                                                                        |
+|v = {'Senha': '4482', 'Conta Corrente': '21111', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 90|
+|, 'Débito': 0, 'Crédito': 90, 'Extrato': [{'mês': '7', '7': {'mês': '7', 'Saldo': 90, 'Crédito': 90, 'Débito': |
+|0, 'Saque': 10, 'Depósito': 100}}], 'Histórico': [['0001', '21111']], 'CNPJ': '12345', 'Nome': 'BV Code', 'Tipo|
+| Pessoa': 'Pessoa Jurídica'}                                                                                   |
+|v = {'Senha': '6859', 'Conta Corrente': '21112', 'Agência': '0001', 'Tipo Conta': 'Conta Corrente', 'Saldo': 0,|
+| 'Débito': 0, 'Crédito': 0, 'Extrato': [], 'Histórico': [['0001', '21112']], 'CNPJ': '12345', 'Nome': 'BV Code'|
+|, 'Tipo Pessoa': 'Pessoa Jurídica'}                                                                            |
 |---------------------------------------------------------------------------------------------------------------|
 |'Todas as ocorrências encontradas para CNPJ 12345.'                                                            |
 |---------------------------------------------------------------------------------------------------------------|
