@@ -16,7 +16,7 @@ step:	|execution_track:		     |docstring				        			|
 |	|                                    |a e opções dos menus. """                          		|
 |	|1.1.1.1_ >>> line 19 - 21           |"""                         		                        |
 |	|                                    |A função menu_self, em todos os módulos, transporta o self da clas|
-|	|                                    |se de cada módulo e o adiciona a uma váriavel lista_self. """     |
+|	|                                    |se de cada módulo e adiciona-o ao dict lista_self. """            |
 2	|2.1.0_ >>> line 45 - 46             |"""                                              		        |
 |	|                                    |O modulo_agencia_0001 será acessado por funcionários da agência Ma|
 |	|                                    |triz e da agência 0001. """                        		|
