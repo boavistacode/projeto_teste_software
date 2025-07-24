@@ -75,7 +75,7 @@ step:	|execution_track:                	|input:				|output:			|
 |	|5.3.1.5_                   										|
 10	|5.3.1.6_                   										|
 |'Saldo: R$ 100,00'                                                                                             |
-|'{'mês': '7', 'Saldo': 90, 'Crédito': 90, 'Débito': 0, 'Saque': 10, 'Depósito': 100}'                          |
+|{'mês': '7', 'Saldo': 100, 'Crédito': 100, 'Débito': 0, 'Saque': 10, 'Depósito': 100}                          |
 |	|					|                           	|lista_contas_0001.json         |
 |---------------------------------------------------------------------------------------------------------------|
 |{'Senha': '9530', 'Conta Poupança': '11112', 'Agência': '0001', 'Tipo Conta': 'Conta Poupança', 'Saldo': 100, '|
