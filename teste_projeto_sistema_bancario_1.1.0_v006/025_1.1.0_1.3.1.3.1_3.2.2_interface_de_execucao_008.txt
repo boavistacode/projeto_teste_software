@@ -8,7 +8,7 @@ step:	|execution_track:					|input:							|output:							|
 1		|3.2.0_3.2.1_																							|
 |modulo_contas.modulo_menu_contas.menu_opcao:																	|
 |'Boa Vista Bank'																								|
-|'Agência 0001'																									|
+|'Agência 0002'																									|
 |'Contas'																										|
 |'Menu (0)'																										|
 |'Cliente (1) / Cadastrar (2) / Retornar ocorrências (3) / Transferir (4) / Descadastrar (5)					|
@@ -42,7 +42,7 @@ step:	|execution_track:					|input:							|output:							|
 |modulo_cliente.modulo_menu_cliente.menu_opcao:																	|
 |'Boa Vista Bank'																								|
 |'Contas'																										|
-|'Agência 0001'																									|
+|'Agência 0002'																									|
 |'Conta Corrente 11111'																							|
 |'Menu (0)'																										|
 |'Saldo (1) / Extrato (2) / Saque (3) / Depósito (4) / Transferir (5) / Contas (6) / Sair (7):'					|
