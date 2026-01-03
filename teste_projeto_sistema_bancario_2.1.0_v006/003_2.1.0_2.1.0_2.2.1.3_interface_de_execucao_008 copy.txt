@@ -15,7 +15,7 @@ step:	|execution_track:					|input:							|output:							|
 |		|...								|(1)							|									|
 |---------------------------------------------------------------------------------------------------------------|
 |		|2.2.1.3_																								|
-|modulo_agencia.modulo_menu_agencia.cadastrar_usuario: 															|
+|modulo_agencia.modulo_menu_agencia.cadastrar_usuario:															|
 |'Cadastrar'																									|
 |---------------------------------------------------------------------------------------------------------------|
 |'Digite a_ Matrícula:'																							|
@@ -26,7 +26,7 @@ step:	|execution_track:					|input:							|output:							|
 |		|...								|(-1204)						|									|
 |---------------------------------------------------------------------------------------------------------------|
 |		|2.3.1.2_																								|
-|menu_agencia.modulo_lista_agencia.lista_usuario: 																|
+|menu_agencia.modulo_lista_agencia.lista_usuario:																|
 |'O usuário Matrícula 11111 já foi cadastrado.'																	|
 |---------------------------------------------------------------------------------------------------------------|
 |		|2.2.1.2_																								|
